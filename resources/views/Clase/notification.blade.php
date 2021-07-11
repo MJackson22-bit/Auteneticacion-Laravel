@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-@extends('index')
+@extends('layouts.app')
 @section('contenido')
 <div class="container">
     <div class="alert alert-success" role="alert">

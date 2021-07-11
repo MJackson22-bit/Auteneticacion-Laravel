@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-@extends('index')
+@extends('layouts.app')
 @section('contenido')
     <div class="container">
         <div class="card-body">

@@ -1,13 +1,8 @@
 <!DOCTYPE html>
-@extends('index')
+@extends('layouts.app')
 
 @section('contenido')
 
-    <head>
-
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <title>Document</title>
-    </head>
     <div class="container" style="margin-top:45px;">
         <h2 align="center"><strong>{{ $message }}</strong></h2>
     </div>

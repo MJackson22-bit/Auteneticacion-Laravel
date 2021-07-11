@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Profesor;
+use Illuminate\Support\Facades\Gate;
+
 class ProfesorController extends Controller
 {
     public function index(){
@@ -14,7 +16,11 @@ class ProfesorController extends Controller
     }
 
     public function create(){
-        return view('Profesor.create');
+        if(Gate::allows('create-profesor')){
+            return view('Profesor.create');
+        }
+        $message = "Acción restringida";
+       return view('Profesor.notification', compact('message'));
     }
     public function store(Request $request){
         $id = $request->input("p_id");
