@@ -7,7 +7,7 @@
         <h2 align="center"><strong>{{ $message }}</strong></h2>
     </div>
     <br />
-    <div class="container" style="margin: 8px;">
+    <div class="container" align="center" style="margin: 8px;">
         <a href="aulas/create" class="btn btn-info btn-lg">
             <span class="glyphicon glyphicon-plus"></span> Agregar una nueva aula
         </a>
@@ -15,7 +15,7 @@
     @if (count($listaAula) > 0)
         <div class="container">
             <table class="table  table-dark">
-
+                
                 <tr>
                     <th scope="col">
                         <h3>Información</h3>
@@ -46,14 +46,14 @@
                             <a class="btn btn-success" href="{{ asset('aulas/delete/' . $data->id) }}">
                                 <span class="glyphicon glyphicon-remove-sign"></span> Eliminar
                             </a>
-                            <a class="btn btn-danger" href="{{ asset('aulas/relation/' . $data->id) }}">
+                            <!--<a class="btn btn-danger" href="{{ asset('aulas/relation/' . $data->id) }}">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                     <path
                                         d="M5.22 14.78a.75.75 0 001.06-1.06L4.56 12h8.69a.75.75 0 000-1.5H4.56l1.72-1.72a.75.75 0 00-1.06-1.06l-3 3a.75.75 0 000 1.06l3 3zm5.56-6.5a.75.75 0 11-1.06-1.06l1.72-1.72H2.75a.75.75 0 010-1.5h8.69L9.72 2.28a.75.75 0 011.06-1.06l3 3a.75.75 0 010 1.06l-3 3z">
                                     </path>
                                 </svg>
                                 Ver Relación
-                            </a>
+                            </a>-->
 
                         </td>
 

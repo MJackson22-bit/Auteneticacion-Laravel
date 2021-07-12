@@ -21,7 +21,7 @@
                     </h5>
                 </div>
             </div>
-            <div class="col-sm">
+            <!--<div class="col-sm">
                 <div class="card-header" id="headingTwo" align="center">
                     <h5 class="mb-0">
                         <a href="/clases" class="btn btn-primary" align="center">
@@ -29,7 +29,7 @@
                         </a>
                     </h5>
                 </div>
-            </div>
+            </div>-->
             <div class="col-sm">
                 <div class="card-header" id="headingThree" align="center">
                     <h5 class="mb-0">
@@ -39,7 +39,7 @@
                     </h5>
                 </div>
             </div>
-            <div class="col-sm">
+            <!--<div class="col-sm">
                 <div class="card-header" id="headingFour">
                     <h5 class="mb-0">
                         <a class="btn btn-primary " href="/impartes" align="center">
@@ -47,7 +47,7 @@
                         </a>
                     </h5>
                 </div>
-            </div>
+            </div>-->
         </div>
     </div>
     <div class="container">
